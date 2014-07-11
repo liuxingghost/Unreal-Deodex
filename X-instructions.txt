@@ -1,0 +1,34 @@
+EN:
+
+-If u want deodex some rom without files of it, you only need execute START-EN and follow the intructions of the program.
+-If u already have folder /system/app and /system/framework of your device:
+	-Copy these folders into /system of this script (delete previous app and framdework)
+	-Run Deodex
+	*If this script throws this error "RegCount" when deodex some app:
+		-Run tools/get_inline previous run Deodex
+		-Delete previous /system/app and /system/framework in "Unreal-Deodex"
+		-Copy again yours app and framework in /system
+		-Run Deodex
+
+Known errors:
+
+The folder path must have not spaces! (Example error: "D:\no works\Unreal-Deodez\")
+U must have java in path of windows.
+
+
+ES: 
+
+-Si quieres deodexar alguna rom sin los archivos de la misma, sólo es necesario ejecutar START-ES y sigue las instrucciones del programa.
+-Si ya tienes las carpetas de tu rom odexada (/system/app y /system/framework):
+	-Copia estas carpetas en Unreal-Deodex/system (antes borrar lo que haya dentro) 
+	-Ejecutar Deodex
+	* Si este script lanza el error "RegCount" cuando deodexa alguna aplicación: 
+		-Ejecutar las herramienta "tools/get_inline"
+		-Borrar lo que haya dentro de Unreal-Deodex/System
+		-Copia de nuevo las carpetas app y frame work a Unreal-Deodex/System
+		-Ejecutar Deodex 
+
+Errores conocidos: 
+
+La ruta de la carpeta no debe tener espacios! (Ejemplo de error: "D: \no funciona\Unreal-Deodez\") 
+Debes tener java en el path de windows.
