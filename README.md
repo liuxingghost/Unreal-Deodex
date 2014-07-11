@@ -14,7 +14,7 @@ Versions
 
 1.5
 
-First complete functional script
+First uploaded fully functional
 
 2.0
 
